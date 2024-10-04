@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+gcc -o word-counter word-counter.c `pkg-config --cflags --libs gtk+-3.0`
+
+
+
+
+
+./word-counter
+
+Usage: ./word_counter <filename>
+Counts the number of words, characters, and spaces in a specified text file.
+Example: ./word_counter myfile.txt
+
+
+
+
+
+
+
