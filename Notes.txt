@@ -1,15 +1,12 @@
+Word-Counter By J~Net 2024
 
 
-
-
-
+https://github.com/jamieduk/Word-Counter
 
 
 gcc -o word-counter word-counter.c `pkg-config --cflags --libs gtk+-3.0`
 
-
-
-
+sudo chmod +x word-counter
 
 ./word-counter
 
